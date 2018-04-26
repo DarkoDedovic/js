@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <container>
+
+        <div>
+            <label for="title">Title:
+                <input type="text" id="title">
+            </label>
+            <label for="length">Duration:
+                <input type="number" id="length">
+            </label>
+            <label id="genre">Genre:</label>
+            <select name="genre" id="selectButton">
+                <option></option>
+                <option value="triler">Triler</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedy</option>
+                <option value="horror">Horror</option>
+            </select>
+
+            <input type="button" onclick="createMovie()" value="Create Movie"></input>
+        </div>
+        <div id="div2">
+            <p>Created Movies:</p>
+
+           
+            <ol>
+
+            </ol>
+
+        </div>
+        <div>   <p>Program Date:</p>
+                <input id="date" type="date">
+                <input type="button" onclick="" value="Create Program"></input>
+                <hr>
+                <select name="" id="listMovies">
+                    <option value=""></option>
+                    
+
+                </select>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </container>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
